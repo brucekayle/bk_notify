@@ -6,9 +6,13 @@
 ## 初始设置
 ``
 $.notify.options.class_name=
+
 $.notify.options.time=
+
 $.notify.options.fade_in_speed=
+
 $.notify.options.fade_out_speed=
+
 $.notify.options.position=
 ``
 ## 添加通知
