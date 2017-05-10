@@ -3,13 +3,16 @@
 
 需导入jquery
 
---初始设置
+## 初始设置
+``
 $.notify.options.class_name=
 $.notify.options.time=
 $.notify.options.fade_in_speed=
 $.notify.options.fade_out_speed=
 $.notify.options.position=
---添加通知，返回值为当前id
+``
+## 添加通知
+``
 $.notify.add({
 	title:标题,
 	text:内容,
@@ -23,8 +26,10 @@ $.notify.add({
 	sticky:是否有静止,
 	class_name:样式
 })
---删除通知
+``
+## 删除通知
+``
 $.notify.remove(id,item)参数为id和对象，填id即可
-
+``
 
 **没有X关闭是由于未导入font-awesome.min.css
